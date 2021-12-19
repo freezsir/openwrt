@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.50.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.3/g' package/base-files/files/bin/config_generate
 ########### 更改大雕源码（可选）###########
 sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 # 删除自定义源默认的 argon 主题
