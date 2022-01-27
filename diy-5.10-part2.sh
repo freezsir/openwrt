@@ -24,8 +24,4 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 ########### 安装atmaterial主题###########
 git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/luci-theme-atmaterial-ColorIcon-esirplayground
-########### 安装bypass###########
-# git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
-########### 安装vssr###########
-# git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-# git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+
