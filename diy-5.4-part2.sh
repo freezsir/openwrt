@@ -24,3 +24,5 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 ########### 安装atmaterial主题###########
 git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/luci-theme-atmaterial-ColorIcon-esirplayground
+########### 安装neobird主题###########
+git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird-thinktip
