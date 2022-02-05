@@ -26,3 +26,5 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/luci-theme-atmaterial-ColorIcon-esirplayground
 ########### 安装neobird主题###########
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird-thinktip
+Clear the login password
+sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' openwrt/package/lean/default-settings/files/zzz-default-settings
