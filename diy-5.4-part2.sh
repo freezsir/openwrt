@@ -26,4 +26,5 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/luci-theme-atmaterial-ColorIcon-esirplayground
 ########### 安装neobird主题###########
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird-thinktip
-
+########### 安装openclash###########
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
