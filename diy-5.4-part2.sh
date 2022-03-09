@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.50.3/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 ########### 更改大雕源码（可选）###########
 sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.4/g' target/linux/x86/Makefile
 sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='OpenWrt Compiled by Xiaosage '/g" ./package/lean/default-settings/files/zzz-default-settings
@@ -26,3 +26,5 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/luci-theme-atmaterial-ColorIcon-esirplayground
 ########### 安装neobird主题###########
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird-thinktip
+########### 安装openclash###########
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
