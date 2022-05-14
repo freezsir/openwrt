@@ -27,4 +27,4 @@ git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git 
 ########### 安装neobird主题###########
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird-thinktip
 ########### 安装openclash###########
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
